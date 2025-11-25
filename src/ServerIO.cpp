@@ -1,6 +1,6 @@
 #include "Server.hpp"
 
-//THIS FILE MANAGES Entrada/salida del socket, aceptar clientes y leer datos.
+//Este archivo maneja: Entrada/salida del socket, aceptar clientes y leer datos.
 
 void Server::acceptNewClient()
 {

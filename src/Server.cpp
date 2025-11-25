@@ -61,6 +61,7 @@ void Server::serverInit(int port, std::string& pwd)
 {
 	this->_port = port;
 	this->_password = pwd;
+
 	createSocket();
 	
 	std::cout << GREEN << "\n** Server IRC created **" << RESET << std::endl;
@@ -176,10 +177,6 @@ void Server::closeFds()
 
 	std::cout << GREEN << "** IRC Server shutdown gracefully **" << RESET << std::endl;
 }
-
-
-
-
 
 
 
